@@ -1,6 +1,6 @@
 # 🛒 Online Mart – Full E-Commerce Website with Next.js 15 & MongoDB
 
-A fully-featured e-commerce web application built with the **latest Next.js 15 App Router**, **MongoDB**, **Shadcn UI**, **Tailwind CSS**, and integrated with **Stripe** and **PayPal** for payments. Includes user and admin dashboards, modern design, responsive UI, and advanced Next.js features like parallel routes and server actions.
+A fully-featured e-commerce web application built with the **latest Next.js 15 App Router**, **MongoDB**, **Shadcn UI**, **Tailwind CSS**, and integrated with **Stripe**. Includes user and admin dashboards, modern design, responsive UI, and advanced Next.js features like parallel routes and server actions.
 
 
 ---
@@ -29,7 +29,7 @@ A fully-featured e-commerce web application built with the **latest Next.js 15 A
 | UI              | Tailwind CSS, Shadcn UI, Recharts           |
 | Database        | MongoDB, Mongoose                          |
 | Authentication  | Auth.js, Google OAuth, Magic Link          |
-| Payments        | Stripe, PayPal                             |
+| Payments        | Stripe                             |
 | File Upload     | Uploadthing                                |
 | Email           | Resend                                     |
 | Validation      | Zod                                        |
@@ -45,7 +45,6 @@ Create .env.local. file
 ```bash
 MONGODB_URI=your_mongodb_uri
 STRIPE_SECRET_KEY=your_stripe_key
-PAYPAL_CLIENT_ID=your_paypal_client_id
 NEXTAUTH_SECRET=your_secret
 NEXTAUTH_URL=http://localhost:3000
 RESEND_API_KEY=your_resend_key
